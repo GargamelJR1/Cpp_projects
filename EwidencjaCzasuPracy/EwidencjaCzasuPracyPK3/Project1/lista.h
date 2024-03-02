@@ -269,7 +269,8 @@ public:
 				fs = &pracownik::getNazwisko;
 
 
-			// algorytm sortowanie przez proste wybieranie ze skryptu "AiSD Wybrane zagadnienia"
+			// implementacja sortowania na podstawie algorytmu sortowania przez proste wybieranie ze skryptu 
+			// "ALGORYTMY I STRUKTURY DANYCH Wybrane zagadnienia" Zbigniew J. Czech, Sebastian Deorowicz, Piotr Fabian WYDAWNICTWO POLITECHNIKI ŒL¥SKIEJ, GLIWICE 2010
 			for (int i = 0; i < rozm - 1; i++) {
 				int k = i; pracownik* x = tab[i];
 				for (int j = i + 1; j < rozm; j++) {
